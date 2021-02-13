@@ -1,0 +1,53 @@
+body {
+    gap: 10vw;
+    margin: 10vw;
+    display: grid;
+}
+
+.shape {
+    width: 10vw;
+    aspect-ratio: 1/1;
+    background: black;
+    border-radius: 10vw;
+    transition: transform 225ms ease-out;
+}
+
+.shape:nth-of-type(1) {
+    margin-left: 62vw;
+}
+
+.shape:nth-of-type(2) {
+    margin-left: 76vw;
+}
+
+.shape:nth-of-type(3) {
+    margin-left: 15vw;
+}
+
+.shape:nth-of-type(4) {
+    margin-left: 32vw;
+}
+
+.shape:nth-of-type(5) {
+    margin-left: 70vw;
+}
+
+.shape:nth-of-type(6) {
+    margin-left: 59vw;
+}
+
+.shape:nth-of-type(7) {
+    margin-left: 76vw;
+}
+
+.shape:nth-of-type(8) {
+    margin-left: 40vw;
+}
+
+.shape:nth-of-type(9) {
+    margin-left: 2vw;
+}
+
+.shape:nth-of-type(10) {
+    margin-left: 47vw;
+}
