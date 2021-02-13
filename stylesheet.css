@@ -6,7 +6,7 @@ body {
 
 .shape {
     width: 10vw;
-    aspect-ratio: 1/1;
+    height: 10vw;
     background: black;
     border-radius: 10vw;
     transition: transform 225ms ease-out;
