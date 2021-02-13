@@ -7,9 +7,10 @@ body {
 .shape {
     width: 10vw;
     height: 10vw;
-    background: black;
     border-radius: 10vw;
-    transition: transform 225ms ease-out;
+    border: 1vw solid black;
+    box-sizing: border-box;
+    transition: border 200ms ease-out;
 }
 
 .shape:nth-of-type(1) {

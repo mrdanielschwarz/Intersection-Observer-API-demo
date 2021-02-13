@@ -3,12 +3,12 @@
     const callback = (entries, obs) => {
         entries.forEach(entry => {
             if (!entry.isIntersecting) entry.target.removeAttribute("style");
-            else entry.target.setAttribute("style", "transform: scale(1.3) translateY(-3vw);");
+            else entry.target.setAttribute("style", "border: 5vw solid black;");
         });
     };
     
     const options = {
-        threshold: 0.25
+        threshold: 1
     }
     
     const observer = new IntersectionObserver(callback, options);
